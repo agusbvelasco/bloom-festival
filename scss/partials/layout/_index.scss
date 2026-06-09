@@ -3,4 +3,40 @@
 .hero {
     background-image: url(../assets/home-hero-image.jpg);
     height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.hero-content{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    color: var(--color-text-inverse);
+}
+
+.artists-section{
+    padding: var(--spacing-lg) 0;
+
+    h2 {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    @media (min-width: 1024px){
+       padding: var(--spacing-xl) 0;  
+    }
+}
+
+.about-section{
+    padding: var(--spacing-lg) 0;
+
+    h2 {
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    @media (min-width: 1024px){
+       padding: var(--spacing-xl) 0;  
+    }
 }
