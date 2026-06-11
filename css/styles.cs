@@ -56,12 +56,6 @@ body {
   color: var(--color-text);
 }
 
-.navbar-button {
-  width: 100%;
-  border-radius: 0 !important;
-  margin-top: var(--spacing-sm);
-}
-
 .navbar-toggler {
   padding: 0;
   border: none;
@@ -71,17 +65,12 @@ body {
   box-shadow: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .navbar {
     width: 100%;
   }
   .navbar-expand-lg {
     padding-bottom: var(--bs-navbar-padding-y);
-  }
-  .navbar-button {
-    width: auto;
-    border-radius: var(--border-radius-pill) !important;
-    margin-right: 16px;
   }
 }
 /* Footer */
@@ -296,4 +285,4 @@ body {
   grid-area: chill;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.cs.map */

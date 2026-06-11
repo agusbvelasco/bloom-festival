@@ -35,8 +35,77 @@
     h2 {
         margin-bottom: var(--spacing-lg);
     }
-    
+
     @media (min-width: 1024px){
        padding: var(--spacing-xl) 0;  
     }
+}
+
+.visual-section{
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+
+        @media (min-width: 1024px){
+            height: 400px;
+        }
+    }
+}
+
+.experiences-section{
+    padding: var(--spacing-lg) 0;
+
+    h2 {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    @media (min-width: 1024px){
+       padding: var(--spacing-xl) 0;  
+    }
+}
+
+.experiences-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+    grid-template-areas: 
+    "music food"
+    "art chill";
+
+    img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    p{
+        margin-top: 8px;
+    }
+
+    @media (min-width: 1024px) {
+        gap: var(--spacing-lg);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "music food . ."
+        ". art art chill";
+
+        img{
+            aspect-ratio: auto;
+        }   
+        }
+}
+
+.experience-item--music {
+    grid-area: music;
+}
+.experience-item--food {
+    grid-area: food;
+}
+.experience-item--art {
+    grid-area: art;
+}
+.experience-item--chill {
+    grid-area: chill;
 }

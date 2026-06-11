@@ -22,10 +22,10 @@
     }
 }
 
-.navbar-button {
+.navbar-button{
     width: 100%;
+    border-radius: 0 !important;
     margin-top: var(--spacing-sm);
-    border-radius: 0px;
 }
 
 .navbar-toggler {
@@ -38,22 +38,18 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 992px){
     .navbar {
         width: 100%;
     }
 
-    .navbar-button {
-        width: auto;
-    }
-
-    .navbar-button {
-        border-radius: var(--border-radius-pill);
-        margin-right: 12px;
-        margin-top: 0;
-    }
-
     .navbar-expand-lg{
         padding-bottom: var(--bs-navbar-padding-y);
+    }
+
+    .navbar-button{
+        width: auto;
+        border-radius: var(--border-radius-pill) !important;
+        margin-right: 16px;
     }
 }
