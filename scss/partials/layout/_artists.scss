@@ -1,0 +1,9 @@
+// Artists
+
+.artists-intro{
+    padding: var(--spacing-lg) 0;
+
+    @media (min-width: 1024px){
+       padding: var(--spacing-xl) 0;  
+    }
+}

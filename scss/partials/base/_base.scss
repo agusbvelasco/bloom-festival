@@ -4,4 +4,9 @@ body {
     background-color: var(--color-bg);
     font-family: var(--font-primary);
     color: var(--color-text);
+    padding-top: 106px;
+
+    @media (min-width: 1024px){
+        padding-top: 68px;
+    }
 }

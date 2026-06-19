@@ -16,6 +16,12 @@ body {
   background-color: var(--color-bg);
   font-family: var(--font-primary);
   color: var(--color-text);
+  padding-top: 106px;
+}
+@media (min-width: 1024px) {
+  body {
+    padding-top: 68px;
+  }
 }
 
 /* Tokens */
@@ -191,12 +197,11 @@ body {
 }
 
 .hero {
-  background-image: url(../assets/home-hero-image.jpg);
+  background-image: url(../assets/home-hero-image.png);
   height: 80vh;
   background-size: cover;
   background-position: center;
   position: relative;
-  margin-top: 60px;
 }
 
 .hero-content {
@@ -294,6 +299,15 @@ body {
 
 .experience-item--chill {
   grid-area: chill;
+}
+
+.artists-intro {
+  padding: var(--spacing-lg) 0;
+}
+@media (min-width: 1024px) {
+  .artists-intro {
+    padding: var(--spacing-xl) 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
