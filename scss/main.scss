@@ -14,4 +14,7 @@
 
 // Layout
 @use "./partials/layout/index";
-@use "./partials/layout/artists"
+@use "./partials/layout/info";
+@use "./partials/layout/agenda";
+@use "./partials/layout/tickets";
+@use "./partials/layout/artists";

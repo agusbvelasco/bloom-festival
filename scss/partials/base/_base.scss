@@ -1,10 +1,10 @@
 /* Base document style */
 
 body {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-pink);
     font-family: var(--font-primary);
     color: var(--color-text);
-    padding-top: 106px;
+    padding-top: 102px;
 
     @media (min-width: 1024px){
         padding-top: 68px;

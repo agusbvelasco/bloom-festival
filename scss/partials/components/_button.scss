@@ -1,11 +1,11 @@
 /* Button Primary */
 
 .btn-primary {
-    background-color: var(--color-bg-inverse);
+    background-color: var(--color-bg-orange);
     color: var(--color-text-inverse);
     font-family: var(--font-primary);
     padding: var(--spacing-sm) var(--spacing-md);
-    border-radius: var(--border-radius-pill); 
+    border-radius: 0 !important; 
     border: solid 2px var(--color-border-inverse);
     text-wrap: nowrap;
 
